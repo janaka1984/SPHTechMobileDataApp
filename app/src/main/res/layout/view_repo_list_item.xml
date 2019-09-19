@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/upper_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:background="@drawable/icon_background2"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Useage of Data"
+            android:layout_weight="0.2"
+            android:paddingLeft="5dp"
+            android:id="@+id/datausage"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:paddingLeft="5dp"
+            android:id="@+id/count"/>
+            <ImageView
+                android:id="@+id/down"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:src="@drawable/dropdown_arrow"></ImageView>
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/quater_cover1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useage of Data"
+                android:layout_weight="0.5"
+                android:paddingLeft="5dp"
+                android:id="@+id/quater_name1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quater_type1"
+                android:text="No of Quater"
+                android:paddingLeft="5dp"
+                android:layout_weight="0.5"/>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/quater1_image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_error"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/quater_cover2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useage of Data"
+                android:layout_weight="0.5"
+                android:paddingLeft="5dp"
+                android:id="@+id/quater_name2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quater_type2"
+                android:text="No of Quater"
+                android:paddingLeft="5dp"
+                android:layout_weight="0.5"/>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/quater1_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_error"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/quater_cover3"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useage of Data"
+                android:layout_weight="0.5"
+                android:paddingLeft="5dp"
+                android:id="@+id/quater_name3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quater_type3"
+                android:text="No of Quater"
+                android:paddingLeft="5dp"
+                android:layout_weight="0.5"/>
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/quater1_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_error"></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/quater_cover4"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useage of Data"
+                android:layout_weight="0.5"
+                android:paddingLeft="5dp"
+                android:id="@+id/quater_name4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quater_type4"
+                android:text="No of Quater"
+                android:paddingLeft="5dp"
+                android:layout_weight="0.5"/>
+            <ImageView
+
+                android:visibility="gone"
+                android:id="@+id/quater1_image4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_error"></ImageView>
+        </LinearLayout>
+
+</LinearLayout>

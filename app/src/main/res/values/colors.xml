@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#102B46</color>
+    <color name="colorPrimaryDark">#102B46</color>
+    <color name="colorAccent">#006EBA</color>
+    <color name="Red">#DE1818</color>
+    <color name="Green">#60BE32</color>
+    <color name="Blue">#006EBA</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Litegrey">#D4D4D4</color>
+    <color name="Yellow">#F1C40E</color>
+    <color name="DarkBlue">#102B46</color>
+    <color name="Black">#0A0A0A</color>
+    <color name="Grey">#5F5F60</color>
+    <color name="EditTextbackground">#FCFBFB</color>
+</resources>
